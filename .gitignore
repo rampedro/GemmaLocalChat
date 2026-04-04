@@ -1,0 +1,15 @@
+# Build Artifacts
+node_modules/
+/ios/
+/android/
+.expo/
+
+# Large Model Weights (DO NOT COMMIT)
+assets/models/*.gguf
+assets/models/*.bin
+assets/models/*.mlmodel
+
+# Local Metadata
+*.log
+.DS_Store
+.env
