@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "GemmaLocal",
+    "slug": "gemma-local",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.ai.gemmalocal",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": { "useFrameworks": "static", "deploymentTarget": "15.1" }
+        }
+      ],
+      [
+        "llama.rn",
+        { "enableEntitlements": true, "forceCxx20": true }
+      ]
+    ]
+  }
+}
