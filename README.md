@@ -37,14 +37,9 @@ We adhere to a **High-Density Code Standard**. Please review `CONTRIBUTING.md` b
 
 
 <!-- ================= HEADER ================= -->
-<div align="center">
-  <!-- Coding / AI / Automation themed GIF -->
-  <img src="screenshot.png" 
-       alt="best investment 2026 qr code addresss buz " />
-  <h1 style="font-family: 'Segoe UI', sans-serif; color:#00f7ff;">Hi, I'm RAM 👋</h1>
-  <p style="color:#a0a0a0;">Learn to Invest</p>
-</div>
+## 🤝 Learn to Invest
 
+![Lean to Invest](sceanshot.png)
 ---
 
 
