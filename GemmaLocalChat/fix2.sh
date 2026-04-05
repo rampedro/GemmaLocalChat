@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# 1. Update app.json for iOS 26.3 and Qwen 2.5 Hardware Requirements
+# This uses 'sed' to inject the Network and Memory entitlements
+cat <<EOF > app.json
 {
   "expo": {
     "name": "BuzNote AI",
@@ -32,3 +37,20 @@
     }
   }
 }
+EOF
+
+# 2. Clear the "No Internet" Cache and Stale Paths
+rm -rf ios android .expo
+rm -rf ~/Library/Developer/Xcode/DerivedData/BuzNoteAI-*
+
+# 3. Regenerate the Native Enclave
+npx expo prebuild --clean
+
+# 4. Re-link the 102 Native Pods
+cd ios
+pod install
+cd ..
+
+# 5. Launch to your physical device
+# Ensure your iPhone is plugged in and on the same Wi-Fi
+npx expo run:ios --device
