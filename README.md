@@ -34,6 +34,20 @@ We adhere to a **High-Density Code Standard**. Please review `CONTRIBUTING.md` b
 2. **Inference Speed:** Benchmark all changes against the Apple Neural Engine.
 3. **UI Fluidity:** 60FPS target for high-density tokenized layouts.
 
+
+
+<!-- ================= HEADER ================= -->
+<div align="center">
+  <!-- Coding / AI / Automation themed GIF -->
+  <img src="screenshot.png" 
+       alt="best investment 2026 qr code addresss buz " />
+  <h1 style="font-family: 'Segoe UI', sans-serif; color:#00f7ff;">Hi, I'm RAM 👋</h1>
+  <p style="color:#a0a0a0;">Learn to Invest</p>
+</div>
+
+---
+
+
 ## ⚖️ License
 Licensed under **CC BY-NC 4.0**. 
 **Commercial exploitation is strictly prohibited** without a private license from BuzBest Inc..
