@@ -83,7 +83,7 @@ We adhere to a **High-Density Code Standard**. Please review `CONTRIBUTING.md` b
 <!-- ================= HEADER ================= -->
 ## 🤝 Learn to Invest
 
-![Lean to Invest](sceanshot.png)
+![Lean to Invest](learn-to-invest-2026.png)
 ---
 
 
