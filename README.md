@@ -1,4 +1,4 @@
-# 🌌 OmniNote AI
+# 🌌 BUZBEST Inc by (™ARYAI.AI)
 > **The High-Performance Neural Edge Engine for iOS.**
 > Developed & Maintained by **BuzBest Inc.**
 
@@ -6,10 +6,10 @@
 ![Architecture](https://img.shields.io/badge/Stack-C%2B%2B%20%2F%20React%20Native-blue.svg)
 ![NPU](https://img.shields.io/badge/Hardware-Apple%20Neural%20Engine-black.svg)
 
-OmniNote AI is a zero-trust, local-first multimodal intelligence suite. It bridges the gap between high-level React Native UI and low-level C++ inference kernels, enabling **Llama 3.2 (GGUF)**, **Whisper**, and **Vision OCR** to run with near-zero latency on-device.
+BUZBESTNote Taker AI is a zero-trust, local-first multimodal intelligence suite. It bridges the gap between high-level React Native UI and low-level C++ inference kernels, enabling **Llama 3.2 (GGUF)**, **Whisper**, and **Vision OCR** to run with near-zero latency on-device.
 
 ## 🧠 System Architecture
-OmniNote utilizes a **Static-Linkage Microkernel** strategy:
+BUZBESTNote Taker utilizes a **Static-Linkage Microkernel** strategy:
 - **Vision Layer:** Real-time character recognition via Apple Vision, mapping glyph coordinates to interactive UI tokens.
 - **Inference Layer:** Metal-accelerated `llama.cpp` implementation utilizing **Deterministic Quantization (Q4_K_M)** for private reasoning.
 - **Persistence Layer:** Zero-trust local encryption using the iOS Keychain and Secure Enclave.
@@ -21,21 +21,15 @@ OmniNote utilizes a **Static-Linkage Microkernel** strategy:
 
 ### Cold Boot Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/OmniNoteIOS
+git clone https://github.com/rampedro/GemmaLocalChat
 npm install
 ./setup_assets.sh  # Ingests model weights to FileSystem.documentDirectory
 npx expo prebuild --platform ios
 npx expo run:ios
 ```
-# OmniNoteIOS: Private Clinical Intelligence Enclave
-### *A Zero-Trust, Local-First AI Layer for Health Informatics*
-
-[![Compliance: HIPAA/GDPR](https://img.shields.io/badge/Compliance-HIPAA%20%2F%20GDPR-blue)](#)
-[![Engine: Trinity Ultra](https://img.shields.io/badge/Engine-Trinity%20Ultra-red)](#)
-[![Security: Zero--Trust](https://img.shields.io/badge/Security-Zero--Trust-green)](#)
 
 ## 🏥 Executive Summary
-**OmniNoteIOS** is a high-performance mobile intelligence environment designed for the secure processing of unstructured clinical narratives. Built as a core component of the **Trinity Engine** ecosystem, the application prioritizes **On-Device Inference** to eliminate "Data-in-Transit" risks, ensuring 100% **PHI/PII Sanitization** at the edge.
+**** is a high-performance mobile intelligence environment designed for the secure processing of unstructured clinical narratives. Built as a core component of the **Trinity Engine** ecosystem, the application prioritizes **On-Device Inference** to eliminate "Data-in-Transit" risks, ensuring 100% **PHI/PII Sanitization** at the edge.
 
 By leveraging quantized LLMs and medical-grade speech-to-text, OmniNoteIOS transforms raw clinician input into structured, interoperable data aligned with **SNOMED CT** and **HL7/FHIR** standards.
 
@@ -62,7 +56,7 @@ By leveraging quantized LLMs and medical-grade speech-to-text, OmniNoteIOS trans
 
 ## 🧠 Applied Domain Expertise
 
-| Industry Term | Application in OmniNoteIOS |
+| Industry Term |
 | :--- | :--- |
 | **Edge Intelligence** | Migrating clinical NLP from centralized servers to mobile hardware to reduce attack surfaces. |
 | **Semantic Interoperability** | Normalizing free-text notes into machine-readable **SNOMED CT** codes for downstream EHR integration. |
@@ -78,13 +72,6 @@ By leveraging quantized LLMs and medical-grade speech-to-text, OmniNoteIOS trans
 * Xcode / Android Studio for **Native C++ Bridging**
 * **Buz Studio** Local Node (Optional for distributed tasks)
 
-### Setup
-1. **Clone & Initialize:**
-   ```bash
-   git clone [https://github.com/rampedro/OmniNoteIOS.git](https://github.com/rampedro/OmniNoteIOS.git)
-   cd OmniNoteIOS
-   npm install
-
 
 ## 🤝 Contributing
 We adhere to a **High-Density Code Standard**. Please review `CONTRIBUTING.md` before opening a Pull Request. We prioritize:
@@ -93,25 +80,15 @@ We adhere to a **High-Density Code Standard**. Please review `CONTRIBUTING.md` b
 3. **UI Fluidity:** 60FPS target for high-density tokenized layouts.
 
 
+<!-- ================= HEADER ================= -->
+## 🤝 Learn to Invest
+
+![Lean to Invest](sceanshot.png)
 ---
 
-<p align="center">
-  <img src="screenshot.png" alt="OmniNoteIOS Interface" width="90%">
-</p>
 
-<p align="center">
-  <sub>L &nbsp; E &nbsp; A &nbsp; R &nbsp; N &nbsp; &nbsp; & &nbsp; &nbsp; I &nbsp; N &nbsp; V &nbsp; E &nbsp; S &nbsp; T</sub>
-  <br>
-  <strong>──────────────────────────────</strong>
-</p>
-
-<p align="center">
-  <em>Join the evolution of the <strong>Trinity Engine</strong>. Secure the future of Zero-Trust Clinical Intelligence.</em>
-</p>
-
-
-<p align="center">
- ⚖️ License
+## ⚖️ License
+>>>>>>> 703e4061021305c61302998f1644509c6d68baa7
 Licensed under **CC BY-NC 4.0**. 
 **Commercial exploitation is strictly prohibited** without a private license from BuzBest Inc..
 </p>
