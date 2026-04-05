@@ -1,4 +1,4 @@
-# 🌌 OmniNote AI
+# 🌌 BUZBEST Inc by (™ARYAI.AI)
 > **The High-Performance Neural Edge Engine for iOS.**
 > Developed & Maintained by **BuzBest Inc.**
 
@@ -6,10 +6,10 @@
 ![Architecture](https://img.shields.io/badge/Stack-C%2B%2B%20%2F%20React%20Native-blue.svg)
 ![NPU](https://img.shields.io/badge/Hardware-Apple%20Neural%20Engine-black.svg)
 
-OmniNote AI is a zero-trust, local-first multimodal intelligence suite. It bridges the gap between high-level React Native UI and low-level C++ inference kernels, enabling **Llama 3.2 (GGUF)**, **Whisper**, and **Vision OCR** to run with near-zero latency on-device.
+BUZBESTNote Taker AI is a zero-trust, local-first multimodal intelligence suite. It bridges the gap between high-level React Native UI and low-level C++ inference kernels, enabling **Llama 3.2 (GGUF)**, **Whisper**, and **Vision OCR** to run with near-zero latency on-device.
 
 ## 🧠 System Architecture
-OmniNote utilizes a **Static-Linkage Microkernel** strategy:
+BUZBESTNote Taker utilizes a **Static-Linkage Microkernel** strategy:
 - **Vision Layer:** Real-time character recognition via Apple Vision, mapping glyph coordinates to interactive UI tokens.
 - **Inference Layer:** Metal-accelerated `llama.cpp` implementation utilizing **Deterministic Quantization (Q4_K_M)** for private reasoning.
 - **Persistence Layer:** Zero-trust local encryption using the iOS Keychain and Secure Enclave.
@@ -21,7 +21,7 @@ OmniNote utilizes a **Static-Linkage Microkernel** strategy:
 
 ### Cold Boot Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/OmniNoteIOS
+git clone https://github.com/rampedro/GemmaLocalChat
 npm install
 ./setup_assets.sh  # Ingests model weights to FileSystem.documentDirectory
 npx expo prebuild --platform ios
