@@ -83,7 +83,6 @@ We adhere to a **High-Density Code Standard**. Please review `CONTRIBUTING.md` b
 <!-- ================= HEADER ================= -->
 ## 🤝 Invest to Learn, [Read more](https://buz.best)
 
-![Lean to Invest](learn-to-invest-2026.png)
 ---
 
 
